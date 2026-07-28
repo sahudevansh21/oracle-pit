@@ -9,7 +9,6 @@ import {
   Share2,
   MoreHorizontal,
   ArrowUpRight,
-  ArrowDownRight,
   CheckCircle2,
 } from "lucide-react";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";

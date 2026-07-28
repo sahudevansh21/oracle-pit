@@ -10,9 +10,6 @@ import {
 import type { Market, MarketCategory, LeaderboardEntry, Comment, Holder, OrderBook, Trade, Position } from "./types";
 import { supabase, isSupabaseConfigured } from "./supabase";
 
-const LATENCY = 0;
-const wait = (ms = LATENCY) => (ms > 0 ? new Promise((resolve) => setTimeout(resolve, ms)) : Promise.resolve());
-
 let marketStore: Market[] = [...mockMarkets];
 
 export async function getMarkets(params?: {

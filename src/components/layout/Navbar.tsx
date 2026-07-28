@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Target, Search, Menu, X, ArrowRight } from "lucide-react";
+import { Target, Search, Menu, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { ConnectButton } from "@/components/web3/ConnectButton";
 import { cn } from "@/lib/utils";

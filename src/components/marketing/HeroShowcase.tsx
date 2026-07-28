@@ -13,7 +13,6 @@ import {
   HelpCircle,
   Share2,
   MoreHorizontal,
-  Sparkles,
   Zap,
 } from "lucide-react";
 import { motion } from "framer-motion";
